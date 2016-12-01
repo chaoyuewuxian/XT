@@ -15,6 +15,9 @@
 		A83B83301DEF19440079C2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83B832E1DEF19440079C2C0 /* LaunchScreen.storyboard */; };
 		A83B833B1DEF19440079C2C0 /* XTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B833A1DEF19440079C2C0 /* XTTests.m */; };
 		A83B83461DEF19440079C2C0 /* XTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B83451DEF19440079C2C0 /* XTUITests.m */; };
+		A84813621DEFF02B00E53E27 /* wangwu.m in Sources */ = {isa = PBXBuildFile; fileRef = A84813611DEFF02B00E53E27 /* wangwu.m */; };
+
+		A848135F1DEFEFBE00E53E27 /* lisi.m in Sources */ = {isa = PBXBuildFile; fileRef = A848135E1DEFEFBE00E53E27 /* lisi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		A83B83411DEF19440079C2C0 /* XTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83B83451DEF19440079C2C0 /* XTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTUITests.m; sourceTree = "<group>"; };
 		A83B83471DEF19440079C2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84813601DEFF02B00E53E27 /* wangwu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wangwu.h; sourceTree = "<group>"; };
+		A84813611DEFF02B00E53E27 /* wangwu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wangwu.m; sourceTree = "<group>"; };
+		A848135D1DEFEFBE00E53E27 /* lisi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lisi.h; sourceTree = "<group>"; };
+		A848135E1DEFEFBE00E53E27 /* lisi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lisi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				A83B83241DEF19440079C2C0 /* AppDelegate.m */,
 				A83B83261DEF19440079C2C0 /* ViewController.h */,
 				A83B83271DEF19440079C2C0 /* ViewController.m */,
+				A84813601DEFF02B00E53E27 /* wangwu.h */,
+				A84813611DEFF02B00E53E27 /* wangwu.m */,
+				A848135D1DEFEFBE00E53E27 /* lisi.h */,
+				A848135E1DEFEFBE00E53E27 /* lisi.m */,
 				A83B83291DEF19440079C2C0 /* Main.storyboard */,
 				A83B832C1DEF19440079C2C0 /* Assets.xcassets */,
 				A83B832E1DEF19440079C2C0 /* LaunchScreen.storyboard */,
@@ -273,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84813621DEFF02B00E53E27 /* wangwu.m in Sources */,
 				A83B83281DEF19440079C2C0 /* ViewController.m in Sources */,
 				A83B83251DEF19440079C2C0 /* AppDelegate.m in Sources */,
+				A848135F1DEFEFBE00E53E27 /* lisi.m in Sources */,
 				A83B83221DEF19440079C2C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +520,7 @@
 				A83B834C1DEF19440079C2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83B834D1DEF19440079C2C0 /* Build configuration list for PBXNativeTarget "XTTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				A83B834F1DEF19440079C2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83B83501DEF19440079C2C0 /* Build configuration list for PBXNativeTarget "XTUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +538,7 @@
 				A83B83521DEF19440079C2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
