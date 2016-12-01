@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    @"wangwu"
+    @"我是李四"
     // Override point for customization after application launch.
     return YES;
 }
